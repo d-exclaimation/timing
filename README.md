@@ -18,7 +18,6 @@ def start(_type, _args) do
   # ... your stuff here
 end
 ```
-```
 3. Use the Timing to perform setTimeout and setInterval etc
 ```elixir
 ref = Timing.timeout(2000, fn ->
